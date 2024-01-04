@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head ru=en>
+	<meta charset="utf-8">
+	<title>NFQ-Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://allfont.net/allfont.css?fonts=courier-new-bold" rel="stylesheet" type="text/css" />
+	<link href="//db.onlinewebfonts.com/c/ffdfee58eaaf4d144d09221c931d9e48?family=Trebuchet+MS" rel="stylesheet" type="text/css"/>
+
+	
+<script src="main.js"></script>
+</head>
+<body>
+	<div class="nfq">
+		<div class="calculator">
+			<div class="calc">
+				<div class="pfq">
+
+					<p id="out">0</p>
+					<p id="null"></p>
+					
+				</div>
+			<img src="img/calculator.png" class="imges">
+				<h1 class="cal">CALC</h1>
+				
+			</div>
+
+			<div class="cla">
+				<div class="geern">
+					<div class="firts-row">
+		<button class="onclick" onclick="pers1()"><p>C</p></button>
+		<button class="onclick on-off"  onclick="pers2()"><b>ON/OFF</b></button>
+		<button class="onclick" onclick="delit()"><p>%</p></button>
+		<button class="onclick"  onclick="display('/')"><p>÷ </p></button>
+		
+	</div>
+	<div class="second-row">
+		<button onclick="display('7')">7</button>
+		<button onclick="display('8')">8</button>
+		<button onclick="display('9')">9</button>
+		<button class="onclick"  onclick="display('*')"><p>×</p></button>
+
+		</div>
+		<div class="third-row">
+			<button onclick="display('4')">4</button>
+			<button onclick="display('5')">5</button>
+			<button onclick="display('6')">6</button>
+			<button class="onclick"  onclick="display('-')"><p>-</p></button>
+			
+
+		</div>
+		<div class="four-row">
+			<button onclick="display('1')">1</button>
+			<button onclick="display('2')">2</button>
+			<button onclick="display('3')">3</button>
+			<button class="onclick1 onclick"  onclick="display('+')"><p>+</p></button>
+			
+		</div>
+
+<div class="five-row">
+	   <button  onclick="display('0')">0</button> 
+		<button onclick="display('.')">.</button>
+		
+		<button class="onclick2"  onclick="solve()" >=</button>
+	</div>
+
+					
+				</div>
+				
+			</div>
+
+
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
